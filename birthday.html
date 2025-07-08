@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday My Love ❤️</title>
+  <!-- Bootstrap 5 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(135deg, #ffe6f0, #ffccff);
+      font-family: 'Segoe UI', sans-serif;
+      color: #4b0c3e;
+    }
+    .main-card {
+      margin-top: 5%;
+      background: #fff0f5;
+      border-radius: 25px;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    }
+    .birthday-heading {
+      font-size: 2.5rem;
+      font-weight: bold;
+      text-align: center;
+    }
+    .birthday-lines {
+      font-size: 1.2rem;
+      margin-top: 20px;
+      line-height: 1.8;
+    }
+    .btn-custom {
+      background-color: #d63384;
+      color: white;
+      padding: 10px 25px;
+      font-size: 1.1rem;
+      border-radius: 50px;
+      transition: 0.3s ease;
+    }
+    .btn-custom:hover {
+      background-color: #c2185b;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="card main-card p-4">
+      <h1 class="birthday-heading">Happy Birthday, My Love❤️</h1>
+      <p class="birthday-lines text-center">
+        Today is all about celebrating the incredible woman you are —<br>
+        the one who lights up my world with love, laughter, and endless care.<br><br>
+        You are not just my partner; you are my best friend, my heartbeat, and the reason I smile a little more every day.<br>
+        Thank you for being you — so perfectly, wonderfully, and unforgettably you.<br><br>
+        I love you more than words can say, and I am so grateful to walk through life hand in hand with you. 💖
+      </p>
+
+      <div class="text-center mt-4">
+        <button type="button" class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#photoModal">
+          Click to See Our Beautiful Memory 📸
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="photoModal" tabindex="-1" aria-labelledby="photoModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header bg-pink">
+          <h5 class="modal-title" id="photoModalLabel">Forever Together 💞</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-center">
+          <!-- Sample couple photo from Unsplash -->
+          <img src="https://images.unsplash.com/photo-1615212049275-6c971df8be37?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=700" alt="Couple Photo">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
